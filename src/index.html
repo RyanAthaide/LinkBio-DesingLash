@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- aos animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="font-sans box-border p-4 m-0 flex items-center justify-center min-h-dvh bg-[url('img/bgStudio.jpeg')] bg-no-repeat bg-cover bg-[50%_36%]">
+  <section data-aos="zoom-in" class="flex flex-col items-center justify-center text-center gap-2 py-8 px-8 rounded-4xl bg-[rgba(3,3,3,0.7)] backdrop-blur-md border-[1px] border-[rgba(2,2,2,0.3)] text-white shadow-2xl">
+    <div class="flex flex-col items-center justify-center gap-2">
+        <img class="w-[120px] h-[120px] rounded-[50%] border-[3px] border-[#e50185] shadow-[#e50185] shadow-[0_0_25px] cursor-pointer transition-all duration-300 *:transition-all *:duration-300 hover:shadow-[#efe0ab] hover:border-[#efe0ab] hover:shadow-[0_0_50px]" src="img/cilios.jpeg" alt="">
+
+        <section id="info" class="flex flex-col items-center justify-center gap-1.5 mt-2">
+            <h2 class="font-bold text-2xl animate-pulse">@studio_karinacabral</h2>
+            <p class="text-sm flex items-center justify-center font-medium font-stretch-condensed bg-clip-text text-transparent bg-gradient-to-r from-[#e50185] to-[#f1e09f]">Designer Sobrancelhas e Cílios <span class="ml-1"><i class='bx bxs-palette text-lg'></i></span></p>
+
+        </section>
+
+        <section id="socials" class="flex items-center justify-center gap-6 mb-6 mt-6 ">
+            <i id="btn-wpp" class='bx bxl-whatsapp text-3xl rounded-[50%] p-2 transition-all duration-500 *:transition-all *duration-500 cursor-pointer bg-green-500 text-neutral-50 hover:bg-neutral-50 hover:text-green-500 hover:-translate-y-1' ></i>
+
+            <i id="btn-instagram" class='bx bxl-instagram text-3xl text-neutral-50 bg-gradient-to-l from-[#e50185] to-[#ff3c00] rounded-[50%] p-2 transition-all duration-500 cursor-pointer *:transition-all *duration-500 hover:opacity-80 hover:-translate-y-1' ></i>
+
+            <i id="btn-facebook" class='bx bxl-facebook text-3xl text-neutral-50 bg-blue-600 rounded-[50%] p-2 transition-all duration-500 *:transition-all *duration-500 cursor-pointer hover:bg-neutral-50 hover:text-blue-600 hover:-translate-y-1'></i>
+        </section>
+    </div>
+
+    <section id="product-grid" class="grid grid-cols-3 gap-3.5 justify-center items-center text-nowrap">
+        <section id="box" class="flex flex-col justify-center items-center gap-1 text-sm font-medium text-neutral-200">
+            <p>Sobrancelhas</p>
+            <img class="w-12 h-12 rounded-[50%] outline-[2px] outline-[#efe0ab] shadow-[#efe0ab] shadow-[0_0_15px]" src="https://i.pinimg.com/736x/43/22/33/4322333845c48fb474301bf90e4a83fe.jpg" alt="">
+        </section>
+        <section id="box" class="flex flex-col justify-center items-center gap-1 text-sm font-medium text-neutral-200">
+            <p>Cílios</p>
+            <img class="w-12 h-12 rounded-[50%] outline-[2px] outline-[#efe0ab] shadow-[#efe0ab] shadow-[0_0_15px]" src="img/cilios.jpeg" alt="">
+        </section>
+        <section id="box" class="flex flex-col justify-center items-center gap-1 text-sm font-medium text-neutral-200">
+            <p>Limpeza de Pele</p>
+            <img class="w-12 h-12 rounded-[50%] outline-[2px] outline-[#efe0ab] shadow-[#efe0ab] shadow-[0_0_15px]" src="https://images.pexels.com/photos/3212164/pexels-photo-3212164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </section>
+    </section>
+    
+
+    <section data-aos="fade-up"
+     data-aos-duration="4000" class="flex justify-center flex-col items-center gap-6 mt-8">
+
+        <button id="btn-agendar" 
+        type="submit"
+        class="flex justify-center cursor-pointer gap-2 items-center mx-auto shadow-xl text-sm text-neutral-900 transition-all duration-600 bg-white backdrop-blur-md font-semibold isolation-auto border-gray-50 before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-[8px] hover:bg-transparent hover:text-white before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-5 py-2 overflow-hidden border-2 rounded-[8px] group">
+        AGENDAR HORÁRIO
+        <svg
+          class="w-8 h-8 justify-end group-hover:rotate-90 group-hover:bg-gray-50 text-neutral-800 ease-linear duration-400 rounded-full border border-neutral-700 group-hover:border-none p-2 rotate-45"
+          viewBox="0 0 16 19"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7 18C7 18.5523 7.44772 19 8 19C8.55228 19 9 18.5523 9 18H7ZM8.70711 0.292893C8.31658 -0.0976311 7.68342 -0.0976311 7.29289 0.292893L0.928932 6.65685C0.538408 7.04738 0.538408 7.68054 0.928932 8.07107C1.31946 8.46159 1.95262 8.46159 2.34315 8.07107L8 2.41421L13.6569 8.07107C14.0474 8.46159 14.6805 8.46159 15.0711 8.07107C15.4616 7.68054 15.4616 7.04738 15.0711 6.65685L8.70711 0.292893ZM9 18L9 1H7L7 18H9Z"
+            class="fill-neutral-700 group-hover:fill-gray-800"
+          ></path>
+        </svg>
+      </button>
+    </section> 
+
+  </section>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+
+    AOS.init();
+
+
+  </script>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
